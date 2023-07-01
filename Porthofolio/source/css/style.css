@@ -1,0 +1,130 @@
+p{
+	font-family: arial;
+}
+nav{
+	justify-content: space-between;
+	background-color: #1b2326;
+	height: 70px;
+	width: 100%;
+	top: 0;
+  	left: 0;
+  	right: 0;
+	position: fixed;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+}
+
+body{
+	background-color: #3a4f52;
+}
+
+.profil{
+	position: absolute;
+	width: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+	display: flex;
+}
+.nama{
+	position: absolute;
+	margin-left: 75px;
+	margin-top: -15px;
+	color: #10f5cc ;
+	font-family: arial;
+	position: absolute;
+}
+.dsc{
+	position: absolute;
+	margin-left: 76px;
+	margin-top: 8px;
+	color: #f5fefd;
+ 	
+}
+.isi{
+	margin-left: 5%;
+	margin-top: 70px;
+	width: 90%;
+	color: #f5fefd;
+ 	font-family: arial;
+ 	z-index: 3;
+}
+.foto{
+	z-index: 1;
+	margin-top: 10px;
+	width: 100%;	
+}
+.foto1{
+	width: 100%;
+}
+.konten{
+	margin-top: 50px;
+	background-color: #2f323b;
+	margin-bottom: -10px;
+	border-bottom: 3px solid #000;
+}
+.judul{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: -100px;
+	text-align: right;
+	color: #f5fefd;
+ 	font-family: "agency fb";
+ 	font-size: 40px;
+ 	height: 50px;
+}
+footer{
+	margin-top: 50px;
+	font-family: "agency fb";
+	text-align: center;
+}
+span{
+	color: #10f5cc;
+}
+.side a{
+	color: #10f5cc;
+	display: inline-block;
+  	font-size: 20px;
+  	margin: 5px;
+  	font-family: "agency fb";
+}
+.tema{
+	width: 48%;
+	background-color: #1b2326;
+	margin-bottom: -10px;
+	border-bottom: 3px solid #3a4f52;
+}
+.foto-t{
+	width: 100%;
+}
+.judul-t{
+	font-family: "agency fb";
+	color: #10f5cc;
+	font-size: 30px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 10px;
+}
+.des-t{
+	font-family: arial;
+	color: #f5fefd;
+	margin-left: 20px;
+}
+.t1,.t2{
+	display: inline-block;
+	margin: 5px;
+}
+.box-t{
+	display: flex;
+}
+
+/* 	
+	hitam = #1b2326
+	Abu = #3a4f52
+	ijo = #10f5cc
+	putih =#f5fefd
+	hitam = #26292e
+	abu = #2f323b
+	biru = #607adb
+	Biru dark = #a3b1ee
+	 */
